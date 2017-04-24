@@ -1,0 +1,4 @@
+alias g="git"
+alias ddown="docker-compose down"
+alias dup="docker-compose up -d"
+
