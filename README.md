@@ -32,7 +32,11 @@
 
 ### Create container
 
-> `docker pull samundra/devbox:1.7`
+    $ docker pull samundra/devbox:1.7
 
-`$ docker run -it --rm -v $(pwd):/vagrant --net={{ network_name }} samundra/devbox:1.7 zsh`
+    $ docker run -it --rm -v $(pwd):/vagrant --net={{ network_name }} samundra/devbox:1.7 zsh
+
+### Build image
+
+    $ docker build . -t samundra/devbox:1.7
 
